@@ -1,0 +1,26 @@
+Distributed Cloud Storage
+
+A)	Main Timer Class
+a)	Generatetimevents()  TriggerEvents()//add events to priority queues
+b)	Createnetwork() //set up nodes and their neighbours
+c)	ProcessEvents()
+B)	Node
+a)	Startup()
+b)	Shutdown()
+c)	Send()
+d)	Retrieve()
+e)	Split()  //possible sub class
+f)	getOnlineNodes() //add h
+g)	infolist()
+h)	getNodeEmptySpace()
+i)	upload()
+C)	Settings
+a)	Constants : Number of nodes, replication factor, min number of splits/num of splits, flag_split_type, etc
+D)	Events
+a)	startNode()
+b)	ShutDownNode()
+c)	UploadFileRequest()
+d)	RetrieveFileRequest()
+E)	Logger
+a)	writeResultstoLogFile()
+b)	
